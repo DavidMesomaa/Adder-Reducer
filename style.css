@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #fff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .container {
     display: flex;
