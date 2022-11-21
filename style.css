@@ -42,7 +42,7 @@ body {
 }
 .buttons {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-top: 30px;
     margin-bottom: 10px;
 }
@@ -53,6 +53,7 @@ body {
     align-items: center;
     width: 130px;
     height: 50px;
+    margin-right: 10px;
     border: transparent;
     border-radius: .3em;
     text-transform: uppercase;
