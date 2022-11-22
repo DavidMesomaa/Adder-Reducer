@@ -7,7 +7,9 @@ addBtn.addEventListener("click", addNum);
 
 function addNum() {
     numDisplay.innerText = num += 1;
-    numDisplay.style.color = 'lime';
+    if (num === 1) {
+        numDisplay.style.color = 'lime';
+    }
 }
 
 reduceBtn.addEventListener("click", reduceNum);
